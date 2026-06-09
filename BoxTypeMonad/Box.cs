@@ -4,6 +4,10 @@ using System.Text;
 
 namespace BoxTypeMonad;
 
+/// <summary>
+/// A box can hold a thing only
+/// </summary>
+/// <typeparam name="T">The type of the thing</typeparam
 public class Box<T>
 {
     public Box(T newItem)
